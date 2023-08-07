@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sidebar Menu</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <script src="./js/script.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+
+            <section class="sidebar-left" id="toggle-menu">
+                
+                <header class="sidebar-left-header">
+
+                    <div class="logo-container">
+                        <h1 class="logo hidden-xs">ProjectX</h1>
+                        <button class="toggle-menu" onclick="accordion()"><i class="bi bi-justify"></i></button>
+                    </div>
+
+                    <ul class="menu-list">
+                        <li><a href="#" class="link-menu"><i class="bi bi-house-fill"></i><span class="hidden-xs">Inicio</span></a></li>
+                        <li><a href="#" class="link-menu"><i class="bi bi-key-fill"></i><span class="hidden-xs">Administración</span></a></li>
+                        <li><a href="#" class="link-menu"><i class="bi bi-person-lines-fill"></i><span class="hidden-xs">Contacto</span></a></li>
+                        <li><a href="#" class="link-menu"><i class="bi bi-envelope-fill"></i><span class="hidden-xs">Mensajería</span></a></li>
+                        <li><a href="#" class="link-menu"><i class="bi bi-info-circle-fill"></i><span class="hidden-xs">FAQ</span></a></li>
+                    </ul>
+                </header>
+
+                <div class="sidebar-left-footer">
+                    <ul class="menu-list">
+                        <li><a href="#" class="link-menu"><i class="bi bi-gear-fill"></i><span class="hidden-xs">Ajustes</span></a></li>
+                        <li><a href="#" class="link-menu"><i class="bi bi-box-arrow-in-right"></i><span class="hidden-xs">Cerrar sesión</span></a></li>
+                    </ul>
+                </div>
+
+            </section>  
+
+        </div>
+
+    </body>
+</html>
